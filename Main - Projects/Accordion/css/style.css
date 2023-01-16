@@ -1,0 +1,27 @@
+*{box-sizing: border-box;
+  font-family: monospace;
+  text-transform: uppercase;}
+
+.accordion{
+    background-color: #eee;
+    border: none;
+    width: 100%;
+    padding: 25px;
+    text-align: left;
+    font-size: 16px;
+    color: #444;
+    cursor: pointer;
+    outline: none;
+    transform: 0.4s;
+}
+
+.active, .accordion:hover{
+    background-color: #000;
+}
+
+.panel {
+    padding:0 18px;
+    display:  none;
+    background-color: white;
+    overflow: hidden;
+}
