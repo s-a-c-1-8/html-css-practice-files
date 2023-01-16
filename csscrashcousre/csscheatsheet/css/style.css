@@ -1,0 +1,170 @@
+body{
+    background-color: #f4f4f4;
+    color:#555555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    /*sama as above*/
+    font: normal 16px arial, helvetica, sans-serif;
+
+    line-height:1.6em ;
+}
+
+a{
+    text-decoration:none;
+    color: #333;
+}
+
+a:hover{
+    color:rgb(231, 12, 12);
+}
+
+a:active{
+    color:yellow;
+}
+
+a:visited{
+    color:rgb(0, 225,255);
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.box-1{
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    /* same as above */
+    padding: 20px;
+
+
+}
+
+.clr{
+    clear: both;
+}
+.box-1 h1{
+    font-family: courier new;
+    text-align: center;
+    font-weight: 800;
+    font-style: oblique;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+    padding: 5px;
+}
+
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: square;
+    list-style: none;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('../images/th.pg');
+}
+
+.my-form{
+    padding: 40px;
+}
+
+.my-form .form-group{
+    padding-bottom: 20px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 10px;
+    width: 90%;
+}
+
+.my-form input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 8px ;
+    border: none;
+    width: 90%;
+
+}
+
+
+
+.block{
+    background-color: #333;
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    color: whitesmoke;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.p-box{
+    width: 600px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url('..//images/d.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-position:center top;
+}
+
+.p-box h1{
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 500px;
+}
+
+.my-list li:first-child{
+    background:rgb(231, 12, 12)
+}
+
+.my-list li:nth-child(even){
+    background: greenyellow;
+}
+
+.my-list li:nth-child(odd){
+    background:rgba(15, 3, 3, 0.151);
+}

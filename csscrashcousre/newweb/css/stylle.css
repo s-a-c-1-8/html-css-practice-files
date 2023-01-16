@@ -1,0 +1,64 @@
+body{
+    font-family:georgia;
+    line-height: 1.2em;
+}
+
+
+
+#outside{
+    background-color: lightgoldenrodyellow;
+    border-bottom: 25px;
+    border-top: 25px;
+}
+
+h1{
+   line-height: 1.5em;
+   text-align: center;
+   text-transform: capitalize;
+}
+
+form{
+    padding: 1em;
+    margin: 0 auto;
+    width: 70%;
+    border: 2px solid #ccc;
+    border-radius: 1em;
+}
+
+#form-main{
+    background-color: white;
+}
+
+
+
+
+fieldset{
+    border: 1px solid lightgrey;
+}
+
+div + div {
+    margin-top: 1em;
+}
+
+#number{
+    width: 150px;
+}
+
+#textarea{
+    width: 200px;
+    border: 1px solid #999;
+}
+
+button{
+    margin: .5em;
+    font-size: 1em;
+    text-transform: uppercase;
+    background-color: black;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    color: white
+}
+
+
+

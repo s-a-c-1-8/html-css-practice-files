@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylle.css">
+    <title>New Website</title>
+</head>
+<body>
+    <div id="outside"> <!-- Main Form -->
+        <form action="" id="form-main">
+            <h1 id="title">Application Form Addmission</h1> <!-- TITLE-->
+
+            <fieldset>
+                <!--Personal details-->
+                <legend>Personal Details</legend> 
+
+                <!--Name lable-->
+                <div>
+                    <label for="name" id="name-lable">Name:</label>
+                    <input type="text" placeholder="Enter Your Name" required>
+                </div><br>
+
+                <!--Address Lable-->
+                <div>
+                    <label for="Address" id="address-table">Address:</label>
+                    <input type="text" placeholder="Enter Your Full Address" required>
+                </div><br>
+
+                <!--Email Lable-->
+                <div>
+                    <label for="Email" id="email-lable">Email:</label>
+                    <input type="Email" placeholder="Enter Your Mail" required>
+                </div><br>
+
+                <!--Phone number lable-->
+                <div>
+                    <label for="number" id="phone-number-lable">Phone Number:</label>
+                    <input type="number" placeholder="Enter Mobile Number">
+                </div><br>
+
+                <!--Radio Button For Gender-->
+                <div>
+                    <label for="gender">Gender</label>
+                    <p>
+                    <input type="radio" name="gender" value="male">Male <br>
+                    <input type="radio" name="gender" value="female">Female <br>
+                    <input type="radio" name="gender" value="other">Other 
+                    </p>
+                </div>
+
+                <!--Dob-->
+                <div>
+                    <label for="birthday" id="birthday">Birthday</label>
+                    <input type="date" name="birthday">
+                </div>
+            </fieldset>
+
+            <br>
+
+            <!--checkboxes-->
+            <fieldset>
+                <label for="check" id="checkboxes">Check All That Apply</label>
+                <p>
+                    <input type="checkbox">Currently I'm Looking For Job 
+                     <br>
+                    <input type="checkbox">Already Working For A Company
+                     <br>
+                    <input type="checkbox">I'm fresher in IT
+                    <br>
+                </p>
+            </fieldset>
+            <br>
+
+            <!--Essay -->
+            <fieldset>
+                <legend>Essay Section</legend>
+                <p>Write Minimum 50 Words</p>
+                <textarea name="" id="textarea" cols="50" rows="5"></textarea>
+            </fieldset>
+            
+            <!--Submit Button-->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

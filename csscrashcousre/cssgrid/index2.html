@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Gridt</title>
+    <style>
+        .wrapper div{
+    background: #eee;
+    padding: 1em;
+}
+
+.wrapper div:nth-child(odd){
+   background: #ddd;
+}
+
+.wrapper{
+    display: grid;
+    /*grid-template-columns: 1fr 2fr 1fr;*/
+    grid-template-columns: repeat(3, 1fr );
+    grid-gap: 1em;
+   /* grid-auto-rows: 100px;*/
+   grid-auto-rows: minmax(100px. auto);
+}
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            lore4 afaffaa htree hyyy
+        </div>
+        <div>
+            lore4 afaffaa htree hyyy Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias vel ex amet, minima eveniet laudantium delectus et. Explicabo iure veritatis earum, ipsum aspernatur aliquam possimus. Rem magnam pariatur amet impedit.
+        </div>
+        <div>
+            lore4 afaffaa htree hyyy
+        </div>
+        <div>
+            lore4 afaffaa htree hyyy
+        </div>
+        <div>
+            lore4 afaffaa htree hyyy
+        </div>
+    </div>
+</body>
+</html>

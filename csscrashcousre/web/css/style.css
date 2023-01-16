@@ -1,0 +1,68 @@
+*{
+    font-family: Cambria, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    text-transform: uppercase;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+
+.navbar{
+    background-color: aqua;
+    font-weight: 10px;
+    padding: 10px;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.navbar li{
+    display: inline;
+    padding: 15px;
+}
+
+blockquote{
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid tomato;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    box-shadow: 2px black;
+ 
+}
+
+
+fieldset{
+    padding: 30PX;
+    margin: 30px;
+}
+
+button{
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    background-color: black;
+    /* border-radius: 25px; */
+ 
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
